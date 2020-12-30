@@ -114,7 +114,6 @@ Booklet on ISO Standard 19650 Information management using building information 
 
 BSI Group on BIM - Building Information Modelling - ISO 19650
 
-![_config.yml]({{ site.baseurl }}/images/bim360.png)
 
 Tổng hợp bởi Jimmy Huy Nguyen
 
