@@ -18,25 +18,40 @@ Tiêu chuẩn ISO 19650 có thể được chia ra làm 2 phần và nhắm ch�
 ## Đại ý của tiêu chuẩn BS EN ISO 19650–5:2020:
 **Phần 1 của tiêu chuẩn ISO 19650** nói về những khái niệm và nguyên tắc trong việc phát triển những quy trình BIM cho một dự án.
 
-{% include image.html url="/images/iso19650-1.png.jpg" description="<strong>Chu trình của việc quản lý thông tin (Information management lifecycles) theo ISO 19650</strong> - Tiêu chuẩn ISO 19650 xoay quanh việc quản lý thông tin, trong đó điểm A là điểm bắt đầu của giai đoạn chuyển giao; B là khi model sau khi được chuyển giao sẽ được chuyển đổi thành mô hình thi công ảo (virtual construction model) có vai trò như một bản sao số (digital twin); C là điểm chuyển giao từ quá trình chuyển giao sang quá trình vận hành dự án, lúc này là khi mô hình thông tin dự án (Project Information Model) được chuyển dạng thành mô hình thông tin của tài sản (Asset Information Model)" %}
+![_config.yml]({{ site.baseurl }}/images/iso19650-1.png)
+
+
+<strong>Chu trình của việc quản lý thông tin (Information management lifecycles) theo ISO 19650</strong> - Tiêu chuẩn ISO 19650 xoay quanh việc quản lý thông tin, trong đó điểm A là điểm bắt đầu của giai đoạn chuyển giao; B là khi model sau khi được chuyển giao sẽ được chuyển đổi thành mô hình thi công ảo (virtual construction model) có vai trò như một bản sao số (digital twin); C là điểm chuyển giao từ quá trình chuyển giao sang quá trình vận hành dự án, lúc này là khi mô hình thông tin dự án (Project Information Model) được chuyển dạng thành mô hình thông tin của tài sản (Asset Information Model)
 
 
 Hai khái niệm quan trọng cho các kĩ sư tư vấn (consulting engineers):
 
 
-{% include image.html url="/images/iso19650-2.png" description="<strong>1/ Môi trường dữ liệu chung (Common Data Environment) - (1) WORK IN PROGRESS</strong> (thông tin đang trong quá trình phát triển và chỉ được hiển thị nội bộ trong các đội ngũ thực hiện dự án), <strong>(2) SHARED</strong>- thông tin sau khi được phát triển và kiểm tra giờ sẽ được chia sẻ và hiển thị với các bên liên quan và bên chuyển giao dự án, <strong>(3) PUBLISHED</strong> (thông tin sau khi được review và chấp thuận sẽ được sử dụng để thực thi và thi công), <strong>ARCHIVE</strong> (tất cả các thao tác và hoạt động của các bên trong việc xử lí các thông tin sẽ được lưu trữ lại xuyên suốt quá trình)" %}
+![_config.yml]({{ site.baseurl }}/images/iso19650-2.png)
 
 
-{% include image.html url="/images/iso19650-3.png" description="<strong>2/ Các yêu cầu về dạng thông tin (information requirements)</strong> - Các đối tượng khác nhau sẽ có những yêu cầu khác nhau về thông tin mà họ cần thu thập và sử dụng từ dự án. Tiêu chuẩn ISO 19650 phân loại rạch ròi các dạng thông tin chính mà dự án cần triển khai nhằm phục vụ công tác chuyển giao hiệu quả và minh bạc hơn cho các bên. Ví dụ như có dạng thông tin dành cho các bên đương sự (interested parties) , bên được bổ nhiệm bởi client quản lý đầu ra của sản phẩm (appointment)." %}
+<strong>1/ Môi trường dữ liệu chung (Common Data Environment) - (1) WORK IN PROGRESS</strong> (thông tin đang trong quá trình phát triển và chỉ được hiển thị nội bộ trong các đội ngũ thực hiện dự án), <strong>(2) SHARED</strong>- thông tin sau khi được phát triển và kiểm tra giờ sẽ được chia sẻ và hiển thị với các bên liên quan và bên chuyển giao dự án, <strong>(3) PUBLISHED</strong> (thông tin sau khi được review và chấp thuận sẽ được sử dụng để thực thi và thi công), <strong>ARCHIVE</strong> (tất cả các thao tác và hoạt động của các bên trong việc xử lí các thông tin sẽ được lưu trữ lại xuyên suốt quá trình)"
+
+
+![_config.yml]({{ site.baseurl }}/images/iso19650-3.png)
+
+
+<strong>2/ Các yêu cầu về dạng thông tin (information requirements)</strong> - Các đối tượng khác nhau sẽ có những yêu cầu khác nhau về thông tin mà họ cần thu thập và sử dụng từ dự án. Tiêu chuẩn ISO 19650 phân loại rạch ròi các dạng thông tin chính mà dự án cần triển khai nhằm phục vụ công tác chuyển giao hiệu quả và minh bạc hơn cho các bên. Ví dụ như có dạng thông tin dành cho các bên đương sự (interested parties) , bên được bổ nhiệm bởi client quản lý đầu ra của sản phẩm (appointment).
 
 
 **Phần 2 của tiêu chuẩn ISO 19650** giải thích thêm về những quy trình của một chu kì dự án từ giai đoạn thiết kế, thi công, bàn giao trên cơ sở các thông tin được lưu hành với nhau như thế nào và nhiệm vụ của các bên là gì trong việc sử dụng những thông tin đó
 
 
-{% include image.html url="/images/iso19650-4.png" description="<strong>Sơ đồ tổ chức của các bên thực hiện dự án (Organization for a project)</strong> - A: bên chỉ định (client), B: bên được bổ nhiệm chính (thường là nhà thầu và tư vấn chính), C: bên được chỉ định (từ B), 1: nhóm dự án , 2: nhóm chuyển giao sản phẩm , 3: các đơn vị công tác . Yêu cầu về dạng thông tin sẽ được tạo bởi bên chỉ định dành cho các bên được chỉ định, như A yêu cầu B , B yêu cầu C. Giữa các B sẽ có sự phối hợp về thông tin trước khi định dạng thông tin đúng với yêu cầu của A trước khi chuyển giao cho A." %}
+![_config.yml]({{ site.baseurl }}/images/iso19650-4.png)
 
 
-{% include image.html url="/images/iso19650-5.png" description="<strong>Các bước chuyển giao thông tin giữa các bên (Information delivery process) từ giai đoạn 1 đến 8 </strong>- 
+<strong>Sơ đồ tổ chức của các bên thực hiện dự án (Organization for a project)</strong> - A: bên chỉ định (client), B: bên được bổ nhiệm chính (thường là nhà thầu và tư vấn chính), C: bên được chỉ định (từ B), 1: nhóm dự án , 2: nhóm chuyển giao sản phẩm , 3: các đơn vị công tác . Yêu cầu về dạng thông tin sẽ được tạo bởi bên chỉ định dành cho các bên được chỉ định, như A yêu cầu B , B yêu cầu C. Giữa các B sẽ có sự phối hợp về thông tin trước khi định dạng thông tin đúng với yêu cầu của A trước khi chuyển giao cho A.
+
+
+![_config.yml]({{ site.baseurl }}/images/iso19650-5.png)
+
+
+<strong>Các bước chuyển giao thông tin giữa các bên (Information delivery process) từ giai đoạn 1 đến 8 </strong>- 
 1: Hoạch định các yêu cầu và nội dung của dự án, 
 2: Mời thầu, 
 3: Nhận thầu , 
@@ -50,20 +65,26 @@ B: Hoạt động của 1 dự án, 
 C: Hoạt động của 1 gói thầu, 
 D: Hoạt động trong giai đoạn đấu thầu, 
 E: Hoạt động trong giai đoạn phát triển và hình thành thông tin, 
-F: Hoạt động trong giai đoạn sản xuất thông tin cho việc chuyển giao." %}
+F: Hoạt động trong giai đoạn sản xuất thông tin cho việc chuyển giao."
 
 
-{% include image.html url="/images/iso19650-6.png" description="<strong>Giai đoạn 1 của quy trình chuyển giao thông tin</strong> - Client phải thể hiện rõ ràng các yêu cầu về dạng thông tin mà họ cần từ các bên được chỉ định. Một quy trình chuyển khai BIM (BIM exeecution plan) phải được chuẩn bị trong giai đoạn đấu thầu để có sự minh bạc giữa bên chỉ định và các bên được chỉ định trước khi dự án bắt đầu.
+![_config.yml]({{ site.baseurl }}/images/iso19650-6.png)
 
 
-{% include image.html url="/images/iso19650-7.png" description="<strong>Giai đoạn 6 của quy trình chuyển giao thông tin - Phối hợp để đưa ra sản phẩm</strong>
+<strong>Giai đoạn 1 của quy trình chuyển giao thông tin</strong> - Client phải thể hiện rõ ràng các yêu cầu về dạng thông tin mà họ cần từ các bên được chỉ định. Một quy trình chuyển khai BIM (BIM exeecution plan) phải được chuẩn bị trong giai đoạn đấu thầu để có sự minh bạc giữa bên chỉ định và các bên được chỉ định trước khi dự án bắt đầu.
+
+
+![_config.yml]({{ site.baseurl }}/images/iso19650-7.png)
+
+
+<strong>Giai đoạn 6 của quy trình chuyển giao thông tin - Phối hợp để đưa ra sản phẩm</strong>
 6.1: Đối chiếu với các dữ liệu tham khảo nếu có
 6.2: Tạo thông tin
 6.3: Hoàn tất kiểm định chất lượng 
 6.4: Kiểm tra thông tin và phê duyệt để chia sẻ cho các bên
 6.5: Kiểm tra model thông tin 
 A: Các model thông tin được xử lí bởi các nhóm chuyển giao được chỉ định trong mỗi gói thầu
-B: Sửa đổi thông tin sau khi kiểm tra" %}
+B: Sửa đổi thông tin sau khi kiểm tra
 
 
 Tiêu chuẩn quốc tế ISO 19650 về BIM có sự tương đồng cao với các tiêu chuẩn của Anh đặc biệt là với tiêu chuẩn UK 1192. Một số tiêu chuẩn khác của BSI (British Standards Institution) tích hợp tiêu chuẩn quốc tế ISO về xây dựng số mọi người có thể tham khảo:
