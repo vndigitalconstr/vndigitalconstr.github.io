@@ -83,7 +83,14 @@ F: Hoạt động trong giai đoạn sản xuất thông tin cho việc chuyển
 {: refdef}
 
 
-<strong>Giai đoạn 1 của quy trình chuyển giao thông tin</strong> - Client phải thể hiện rõ ràng các yêu cầu về dạng thông tin mà họ cần từ các bên được chỉ định. Một quy trình chuyển khai BIM (BIM exeecution plan) phải được chuẩn bị trong giai đoạn đấu thầu để có sự minh bạc giữa bên chỉ định và các bên được chỉ định trước khi dự án bắt đầu.
+<strong>Giai đoạn 1 của quy trình chuyển giao thông tin</strong> - Client phải thể hiện rõ ràng các yêu cầu về dạng thông tin mà họ cần từ các bên được chỉ định. Một quy trình chuyển khai BIM (BIM exeecution plan) phải được chuẩn bị trong giai đoạn đấu thầu để có sự minh bạch giữa bên chỉ định và các bên được chỉ định trước khi dự án bắt đầu. 
+1.1: Chỉ định các cá nhân để quản lý về thông tin
+1.2: Thiết lập các yêu cầu về thông tin của dự án
+1.3: Thiết lập các cột mốc của chuyển giao sản phẩm thông tin
+1.4: Thiết lập các tiêu chuẩn về thông tin của dự án
+1.5: Thiết lập các phương pháp và quy trình sản xuất thông tin
+1.6: Thiết lập các tài liệu tham khảo về thông tin cho dự án 
+1.7: Thiết lập giao thức cho thông tin của dự án
 
 
 {:refdef: style="text-align: center;"}
