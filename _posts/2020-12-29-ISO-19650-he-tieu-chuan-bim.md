@@ -89,8 +89,9 @@ F: Hoạt động trong giai đoạn sản xuất thông tin cho việc chuyển
 1.3: Thiết lập các cột mốc của chuyển giao sản phẩm thông tin
 1.4: Thiết lập các tiêu chuẩn về thông tin của dự án
 1.5: Thiết lập các phương pháp và quy trình sản xuất thông tin
-1.6: Thiết lập các tài liệu tham khảo về thông tin cho dự án 
-1.7: Thiết lập giao thức cho thông tin của dự án
+1.6: Thiết lập các tài liệu tham khảo về thông tin cho dự án
+1.7: Thiết lập môi trường dữ liệu chung của dự án
+1.8: Thiết lập giao thức cho thông tin của dự án
 
 
 {:refdef: style="text-align: center;"}
