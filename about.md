@@ -12,7 +12,11 @@ VNDCC có những mảng chính sau đây:
 (3) Các chia sẻ từ những chuyên gia khách mời trong và ngoài nước về các chuyên đề số hóa trong xây dựng
 (4) Một diễn đàn chung cho các thành viên có thể chia sẻ và học hỏi lẫn nhau để cùng nhau phát triển
 (5) Ngoài ra các bạn còn có thể truy cập vào những đường dẫn dưới đây để truy cập vào kho dữ liệu của VNDCC:
+
+
 🡆 Programming-related: https://github.com/vndigitalconstr
+
+
 🡆 Resources: https://medium.com/@vndigitalconstr
 
 ### Contact us
