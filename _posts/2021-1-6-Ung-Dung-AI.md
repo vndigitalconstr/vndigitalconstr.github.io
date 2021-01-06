@@ -137,7 +137,7 @@ Nếu người dùng muốn đi sâu vào chi tiết hoặc muốn điều chỉ
 
 Vì các đơn vị nhà đã có sẵn trong Revit dưới dạng family, việc mô phỏng toàn bộ phương án trong Revit sẽ diễn ra nhanh hơn vì Revit không cần phải tải lại dữ liệu cho các mẫu nhà mà chỉ đơn giản lấy chúng ra từ kho family và sẵp xếp với nhau tương ứng với thiết kế của phương án.
 
-### 4/ Các công cụ được sử dụng trong quy trình (Bước 1 đến Bước 4)
+## 4/ Các công cụ được sử dụng trong quy trình (Bước 1 đến Bước 4)
 
 {:refdef: style="text-align: center;"}
 ![1]({{ site.baseurl }}/images/ai-18.png)
@@ -145,13 +145,13 @@ Vì các đơn vị nhà đã có sẵn trong Revit dưới dạng family, việ
 
 Các family đơn vị nhà (housing unit) được tạo và lưu trữ trong Revit nên vì vậy các phương án cũng được mô phỏng trên nền tảng Revit để dễ dàng lấy thông tin. Các phương án thiết kế được phái sinh (generate) trong nền tảng Rhinoceros 3D và các dữ liệu đánh giá thì được chuyển thành dạng format .json và được trữ trong dữ liệu của nền tảng Mongo. Giao diện của các dữ liệu đánh giá phương án cũng như các bảng báo cáo đánh giá được thực hiện trên trình duyệt mở là Design Explorer thân thiện với người dùng. Các phương án thiết kế được trình duyệt trên Design Explorer sẽ có những mã ID nhất định kể cả khi chúng được import lại vào Revit khi người dùng muốn truy cập sâu thêm vào dự án.
 
-### 5/ Kết quả
+## 5/ Kết quả
 
 {:refdef: style="text-align: center;"}
 ![1]({{ site.baseurl }}/images/ai-19.png)
 {: refdef}
 
-### 6/ Chúng ta có thể kì vọng những gì trong tương lai?
+## 6/ Chúng ta có thể kì vọng những gì trong tương lai?
 
 Bonava đã đầu tư phát triển công nghệ thiết kế phái sinh dựa vào AI và thuật toán trong những năm gần đây. Dưới đây là những cột mốc về những tiến hóa trong tính năng mà công ty đã đạt được từ năm 2017 bắt đầu với model theo tham số (parametric modelling) trong Revit và có thể trong tương lai là Machine learning khi AI có thể tự học và tự cải thiện trên kinh nghiệm trước đó. Mục đích lớn nhất của AI là giúp chúng ta đưa ra quyết định dễ dàng và tối ưu hóa.
 
